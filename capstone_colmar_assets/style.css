@@ -1,0 +1,60 @@
+/* Custom Fonts */
+
+@font-face {
+    font-family: 'Montserrat Bold';
+    src: url('./Montserrat/static/Montserrat-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat Medium';
+    src: url('./Montserrat/static/Montserrat-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat Regular';
+    src: url('./Montserrat/static/Montserrat-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat Light';
+    src: url('./Montserrat/static/Montserrat-Light.ttf') format('truetype');
+}
+
+/* Universal Styles */
+
+html {
+    font-family: 'Montserrat Medium', sans-serif;
+    color: #4a4a4a;
+}
+
+h1 {
+    font-family: 'Montserrat Bold';
+}
+
+p {
+    font-family: 'Montserrat Regular';
+}
+
+/* Custom Styles (classes and ids) */
+
+header {
+    height: 64px;
+    margin: 0px 24px 0px 24px;
+    display: flex;
+    justify-content: right;
+}
+
+header img {
+    float: left;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+
+header ul li {
+    text-decoration: none;
+    font-family: 'Arial';
+}
