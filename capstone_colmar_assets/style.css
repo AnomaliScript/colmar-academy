@@ -2,22 +2,27 @@
 
 @font-face {
     font-family: 'Montserrat Black';
-    src: url('./Montserrat/static/Montserrat-Black.ttf') format('truetype');
+    src: url('./fonts/Montserrat/static/Montserrat-Black.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Montserrat Medium';
-    src: url('./Montserrat/static/Montserrat-Medium.ttf') format('truetype');
+    src: url('./fonts/Montserrat/static/Montserrat-Medium.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Montserrat Regular';
-    src: url('./Montserrat/static/Montserrat-Regular.ttf') format('truetype');
+    src: url('./fonts/Montserrat/static/Montserrat-Regular.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Montserrat Light';
-    src: url('./Montserrat/static/Montserrat-Light.ttf') format('truetype');
+    src: url('./fonts/Montserrat/static/Montserrat-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('./fonts/NotoSans-Regular.ttf') format('truetype');
 }
 
 /* Universal Styles */
@@ -33,6 +38,7 @@ html body {
 
 h1 {
     font-family: 'Montserrat Black';
+    font-size: 26px;
 }
 
 h2 {
@@ -57,7 +63,8 @@ header .content img {
     height: 130%;
 }
 
-header .content p {
+header .content p#spacer {
+    color: #a0a0a0;
     flex: 1;
 }
 
