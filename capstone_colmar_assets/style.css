@@ -35,6 +35,10 @@ h1 {
     font-family: 'Montserrat Bold';
 }
 
+h2 {
+    font-family: 'Montserrat Medium';
+}
+
 p {
     font-family: 'Montserrat Regular';
 }
@@ -76,10 +80,19 @@ header .content nav ul li a {
 
 
 
-.top-message .content{
+.top-message .content {
     background-color: #d8d8d8;
+    box-sizing: border-box;
     width: 100%;
     padding: 32px 24px 32px 24px;
     height: 416px;
+    display: flex;
+    align-items: center;
+}
+
+.top-message .content #message {
+    padding-left: 24px;
+    display: flex;
+    flex-flow: column wrap;
 }
 
