@@ -63,6 +63,11 @@ header .content img {
     height: 130%;
 }
 
+header .content p {
+    font-size: 20px;
+    font-family: 'Noto Sans';
+}
+
 header .content p#spacer {
     color: #a0a0a0;
     flex: 1;
