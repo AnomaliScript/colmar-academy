@@ -37,24 +37,24 @@ p {
 
 /* Custom Styles (classes and ids) */
 
-header {
+.header {
     height: 64px;
     margin: 0px 24px 0px 24px;
     display: flex;
     justify-content: right;
 }
 
-header img {
+.header img {
     float: left;
 }
 
-header ul {
+.header ul {
     display: flex;
     flex-direction: row;
     align-content: space-between;
 }
 
-header ul li {
-    text-decoration: none;
+.header ul li {
+    list-style: none;
     font-family: 'Arial';
 }
