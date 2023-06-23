@@ -37,20 +37,20 @@ p {
 
 /* Custom Styles (classes and ids) */
 
-header {
+.header {
     height: 64px;
     margin: 0px 24px 0px 24px;
     display: flex;
     align-items: center;
 }
 
-header ul {
+.header ul {
     display: flex;
     flex-direction: row;
     align-content: space-between;
 }
 
-header ul li {
+.header ul li {
     list-style: none;
     font-family: 'Arial';
 }
