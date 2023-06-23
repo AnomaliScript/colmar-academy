@@ -53,6 +53,10 @@ header .content img {
     height: 50px;
 }
 
+header .content p {
+    flex: 1;
+}
+
 header .content nav ul {
     display: flex;
     flex-direction: row;
@@ -62,4 +66,5 @@ header .content nav ul {
 header .content nav ul li {
     list-style: none;
     font-family: 'Arial';
+    padding-left: 16px;
 }
