@@ -105,24 +105,24 @@ header .content nav ul li a {
     width: 60%;
 }
 
-.top-message .content #message {
+.top-message .content .message {
     width: 33%;
     padding-left: 48px;
     display: flex;
     flex-flow: column wrap;
 }
 
-.top-message .content #message h1 {
+.top-message .content .message h1 {
     font-size: 300%;
     margin: 0px;
 }
 
-.top-message .content #message h2 {
-    font-size: 300%;
+.top-message .content .message h2 {
+    font-size: 200%;
     margin: 30px 0px;
 }
 
-.top-message .content #message #button {
+.top-message .content .message a#button {
     color: white;
     background-color: #4a4a4a;
     width: 80%;
@@ -130,4 +130,30 @@ header .content nav ul li a {
     justify-content: center;
     padding-top: 12px;
     padding-bottom: 12px;
+}
+
+/* "It doesn't hurt to keep practicing" Section */
+
+.it-doesnt-hurt .content {
+    box-sizing: border-box;
+    padding: 32px 24px 64px 24px;
+    display: flex;
+}
+
+.it-doesnt-hurt .content img {
+    width: 60%;
+}
+
+.it-doesnt-hurt .content .message h1 {
+    margin-top: 32px;
+}
+
+.it-doesnt-hurt .content .message p {
+    margin-top: 24px;
+}
+
+/* Events Section */
+
+.events .content {
+    width: 40%;
 }
