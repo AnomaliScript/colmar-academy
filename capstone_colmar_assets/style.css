@@ -181,8 +181,14 @@ header .content nav ul li a {
     width: 35%;
     height: auto;
     padding-right: 16px;
+    float: left;
 }
 
-.events .content ul li a {
+.events .content ul li .text {
+    display: flex;
+}
+
+.events .content ul li .text a {
     text-decoration: none;
+    color: cornflowerblue;
 }
