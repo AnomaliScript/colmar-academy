@@ -141,7 +141,6 @@ header .content nav ul li a {
 .it-doesnt-hurt .content {
     box-sizing: border-box;
     padding: 32px 24px 64px 24px;
-    flex-wrap: column wrap;
 }
 
 .it-doesnt-hurt .content img {
@@ -165,4 +164,25 @@ header .content nav ul li a {
 
 .events .content {
     width: 40%;
+    margin-bottom: 64px;
+}
+
+.events .content ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.events .content ul li {
+    padding: 16px;
+}
+
+.events .content ul li img {
+    width: 35%;
+    height: auto;
+    padding-right: 16px;
+}
+
+.events .content ul li a {
+    text-decoration: none;
 }
