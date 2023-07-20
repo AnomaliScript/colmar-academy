@@ -188,14 +188,10 @@ header .content nav ul li a {
 .events .content ul li .text {
     display: flex;
     flex-direction: column;
-/* If you get the chance, find out why "justify-content: space-between/space-around doesn't work */
-    box-sizing: border-box;
-    padding: 9% 0px;
 }
 
-.events .content ul li .text h2 p {
-    margin-bottom: 8px;
-    margin-top: 0px;
+.events .content ul li .text * {
+    margin: 0px;
 }
 
 .events .content ul li .text a {
