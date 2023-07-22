@@ -173,6 +173,7 @@ header .content nav ul li a {
 }
 
 .events .content ul li {
+    display: flex;
     padding: 16px;
     margin-bottom: 2px;
     border: 1px solid lightgray;
@@ -188,10 +189,13 @@ header .content nav ul li a {
 .events .content ul li .text {
     display: flex;
     flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
 }
 
 .events .content ul li .text * {
     margin: 0px;
+    padding: 4px 0px;
 }
 
 .events .content ul li .text a {
