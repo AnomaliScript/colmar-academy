@@ -155,6 +155,7 @@ header .content nav ul li a {
 
 .it-doesnt-hurt .content .message p {
     margin-top: 24px;
+    margin-bottom: 0px;
 }
 
 .it-doesnt-hurt .content .message .copyright {
@@ -203,4 +204,37 @@ header .content nav ul li a {
 .events .content ul li .text a {
     text-decoration: none;
     color: cornflowerblue;
+}
+
+/* "Start Learning" Section */
+
+.start-learning .content #header {
+    width: 100%;
+    margin: 32px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.start-learning .content ul {
+    margin: 0px 72px 32px 72px;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+.start-learning .content ul li {
+    display: flex;
+    padding: 8px;
+}
+
+.start-learning .content ul li img {
+    height: auto;
+}
+
+.start-learning .content ul li .text {
+    padding: 16px;
+}
+
+.start-learning .content ul li .text * {
+    padding: 8px;
 }
