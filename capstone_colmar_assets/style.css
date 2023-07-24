@@ -140,7 +140,8 @@ header .content nav ul li a {
 
 .it-doesnt-hurt .content {
     box-sizing: border-box;
-    padding: 32px 24px 64px 24px;
+    padding: 32px 24px;
+    border-right: 1px solid lightgrey;
 }
 
 .it-doesnt-hurt .content img {
@@ -163,13 +164,14 @@ header .content nav ul li a {
 /* Events Section */
 
 .events .content {
-    margin-bottom: 64px;
+    margin-bottom: 32px;
 }
 
 .events .content ul {
     list-style-type: none;
     display: flex;
     flex-direction: column;
+    padding: 0px;
 }
 
 .events .content ul li {
