@@ -230,8 +230,11 @@ header .content nav ul li a {
 }
 
 .start-learning .content ul li {
-    display: flex;
+    width: 30%;
     padding: 16px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
 }
 
 .start-learning .content ul li img {
@@ -240,8 +243,11 @@ header .content nav ul li a {
 
 .start-learning .content ul li .text {
     padding: 16px;
+    background-color: white;
+    flex-grow: 1;
 }
 
 .start-learning .content ul li .text * {
+    margin: 0px;
     padding: 8px;
 }
