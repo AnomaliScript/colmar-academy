@@ -247,6 +247,10 @@ header .content nav ul li a {
     flex-grow: 1;
 }
 
+.start-learning .content ul li .text .courses {
+    line-height: 150%;
+}
+
 .start-learning .content ul li .text * {
     margin: 0px;
     padding: 8px;
