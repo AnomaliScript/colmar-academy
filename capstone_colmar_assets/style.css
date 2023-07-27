@@ -271,20 +271,53 @@ header .content nav ul li a {
     display: flex;
 }
 
-.thesis-exhibit .content .video {
+.thesis-exhibit .content .video * {
     width: 60%;
+    margin: 0px;
     padding: 0px 24px 32px 24px;
 }
 
-.thesis-exhibit .content .video #video {
-    width: max-content;
-    height: auto;
+.video #video {
+    width: 100%;
     box-sizing: border-box;
     padding-bottom: 24px;
 }
 
-.thesis-exhibit .content .video .arial {
+.video .arial {
     font-family: 'Arial', sans-serif;
     padding-top: 8px;
 }
 
+.thesis-exhibit-side {
+    width: 40%;
+}
+
+.thesis-exhibit-side ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.thesis-exhibit-side ul li {
+    display: flex;
+    padding: 16px;
+}
+
+.thesis-exhibit-side ul li img {
+    width: 35%;
+    height: auto;
+    padding-right: 16px;
+    float: left;
+}
+
+.thesis-exhibit-side ul li .text {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.thesis-exhibit-side ul li .text * {
+    margin: 0px;
+    padding: 4px 0px;
+}
