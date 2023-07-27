@@ -271,10 +271,14 @@ header .content nav ul li a {
     display: flex;
 }
 
-.thesis-exhibit .content .video * {
+.thesis-exhibit .content .video {
     width: 60%;
     margin: 0px;
     padding: 0px 24px 32px 24px;
+}
+
+.thesis-exhibit .content .video * {
+    margin: 0px;
 }
 
 .thesis-exhibit .content .video #video {
