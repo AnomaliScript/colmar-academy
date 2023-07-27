@@ -49,7 +49,7 @@ p {
     font-family: 'Montserrat Regular';
 }
 
-/* Custom Styles (classes and ids) */
+/* Sections (This one is for the header) */
 
 header .content {
     box-sizing: border-box;
@@ -212,10 +212,10 @@ header .content nav ul li a {
     background-color: #eaebec;
 }
 
-.start-learning .content #header {
+.start-learning .content h1.header {
     width: 100%;
     margin: 0px;
-    padding: 32px 0px;
+    padding: 32px 0px 16px 0px;
     font-size: 40px;
     display: flex;
     justify-content: center;
@@ -223,7 +223,7 @@ header .content nav ul li a {
 
 .start-learning .content ul {
     margin: 0px;
-    padding: 0px 72px 32px 72px;
+    padding: 0px 56px 16px 56px;
     display: flex;
     flex-wrap: wrap;
     list-style-type: none;
@@ -255,3 +255,31 @@ header .content nav ul li a {
     margin: 0px;
     padding: 8px;
 }
+
+/* Thesis Exhibit section */
+
+.thesis-exhibit .content h1.header {
+    width: 100%;
+    margin: 0px;
+    padding: 32px 0px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.thesis-exhibit .content .video {
+    width: 60%;
+    padding: 0px 24px 32px 24px;
+}
+
+.thesis-exhibit .content .video #video {
+    width: max-content;
+    box-sizing: border-box;
+    padding-bottom: 24px;
+}
+
+.thesis-exhibit .content .video .arial {
+    font-family: 'Arial', sans-serif;
+    padding-top: 8px;
+}
+
