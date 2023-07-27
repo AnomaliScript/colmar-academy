@@ -212,7 +212,7 @@ header .content nav ul li a {
     background-color: #eaebec;
 }
 
-.start-learning .content h1.header {
+.start-learning h1.header {
     width: 100%;
     margin: 0px;
     padding: 32px 0px 16px 0px;
@@ -258,13 +258,17 @@ header .content nav ul li a {
 
 /* Thesis Exhibit section */
 
-.thesis-exhibit .content h1.header {
+.thesis-exhibit h1.header {
     width: 100%;
     margin: 0px;
     padding: 32px 0px;
     font-size: 40px;
     display: flex;
     justify-content: center;
+}
+
+.thesis-exhibit .content {
+    display: flex;
 }
 
 .thesis-exhibit .content .video {
@@ -274,6 +278,7 @@ header .content nav ul li a {
 
 .thesis-exhibit .content .video #video {
     width: max-content;
+    height: auto;
     box-sizing: border-box;
     padding-bottom: 24px;
 }
