@@ -277,13 +277,13 @@ header .content nav ul li a {
     padding: 0px 24px 32px 24px;
 }
 
-.video #video {
+.thesis-exhibit .content .video #video {
     width: 100%;
     box-sizing: border-box;
     padding-bottom: 24px;
 }
 
-.video .arial {
+.thesis-exhibit .content .video .arial {
     font-family: 'Arial', sans-serif;
     padding-top: 8px;
 }
@@ -293,9 +293,11 @@ header .content nav ul li a {
 }
 
 .thesis-exhibit-side ul {
-    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
     display: flex;
     flex-direction: column;
+    list-style-type: none;
 }
 
 .thesis-exhibit-side ul li {
