@@ -68,7 +68,7 @@ header .content p {
     font-family: 'Noto Sans';
 }
 
-header .content p#spacer {
+header .content p.spacer {
     color: #a0a0a0;
     flex: 1;
 }
@@ -284,12 +284,13 @@ header .content nav ul li a {
 .thesis-exhibit .content .video #video {
     width: 100%;
     box-sizing: border-box;
-    padding-bottom: 24px;
+    padding-bottom: 36px;
 }
 
 .thesis-exhibit .content .video .arial {
     font-family: 'Arial', sans-serif;
     padding-top: 18px;
+    letter-spacing: 0.4px;
 }
 
 .thesis-exhibit-side {
@@ -326,4 +327,15 @@ header .content nav ul li a {
 .thesis-exhibit-side ul li .text * {
     margin: 0px;
     padding: 4px 0px;
+}
+
+footer .content {
+    padding: 16px 12px 0px 24px;
+}
+
+footer .content * {
+    margin: 0px;
+    padding: 0px;
+    font-size: 80%;
+    font-family: 'Arial', sans-serif;
 }
